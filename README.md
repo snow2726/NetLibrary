@@ -40,5 +40,6 @@ make clean 		# 清除运行环境
 
 ## 整体框架图
 
-![无标题](D:\desktop\无标题.png)
+![image](https://user-images.githubusercontent.com/91662392/154934395-43b63264-be5c-44be-b9ec-dd09b1db0779.png)
+
 
