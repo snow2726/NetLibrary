@@ -32,6 +32,7 @@ make clean 		# 清除运行环境
 - 基于对象而非面向对象的设计风格，其事件回调多以 function + bind 表达
 - 基于 epoll 的IO复用机制，采用边缘触发（ET）模式
 - 采用线程池技术增加并行服务数量，提高CPU利用率
+- 使用基于时间轮的定时器关闭超时请求
 - 支持 HTTP 长连接
 - 支持优雅关闭连接
   - 主动关闭连接，先关本地 ”写“ 端，等对方关闭之后，再关本地 ”读“ 端
@@ -41,5 +42,15 @@ make clean 		# 清除运行环境
 ## 整体框架图
 
 ![image](https://user-images.githubusercontent.com/91662392/154934395-43b63264-be5c-44be-b9ec-dd09b1db0779.png)
+
+## 参考资料
+
+《Linux多线程服务端编程》-中国-陈硕
+
+《Linux高性能服务器编程》-中国-游双
+
+https://github.com/linyacool/WebServer
+
+
 
 
