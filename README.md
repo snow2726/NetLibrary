@@ -22,7 +22,7 @@ Linux C++ 服务端多线程网络库 (version 0.1.0)
 
 ```bash
 make 			# 编译可执行文件
-./httpserver	          # 运行
+./httpserver	         # 运行
 make clean 		# 清除运行环境
 ```
 
